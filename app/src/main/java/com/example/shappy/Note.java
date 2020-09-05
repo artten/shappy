@@ -6,31 +6,30 @@ import androidx.room.PrimaryKey;
 @Entity(tableName = "note_table")
 public class Note {
 
-    private String Name;
-    private String Sum;
     @PrimaryKey(autoGenerate = true)
     private int id;
+    private String name;
+    private String sum;
+
 
     public Note(String name, String sum) {
-        Name = name;
-        Sum = sum;
+        this.name = name;
+        this.sum = sum;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return Name;
-    }
+    public String getName() { return name; }
 
     public String getSum() {
-        return Sum;
+        return sum;
     }
 
     public int getId() {
         return id;
     }
+
+    public void setId(int id) { this.id = id; }
+    public void setSum(String sum) { this.sum = sum; }
+    public void setName(String name) { this.name = name; }
 
 
 }
