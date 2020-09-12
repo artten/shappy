@@ -1,4 +1,4 @@
-package com.example.shappy;
+package artiom.divak.shappy;
 
 import android.app.Application;
 import androidx.annotation.NonNull;

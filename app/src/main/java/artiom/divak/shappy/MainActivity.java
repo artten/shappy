@@ -1,4 +1,4 @@
-package com.example.shappy;
+package artiom.divak.shappy;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,6 +16,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import com.example.shappy.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.List;

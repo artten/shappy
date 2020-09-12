@@ -1,4 +1,4 @@
-package com.example.shappy;
+package artiom.divak.shappy;
 
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;

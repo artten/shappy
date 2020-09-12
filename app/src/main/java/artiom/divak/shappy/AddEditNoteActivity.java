@@ -1,4 +1,4 @@
-package com.example.shappy;
+package artiom.divak.shappy;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +9,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.shappy.R;
 
 public class AddEditNoteActivity extends AppCompatActivity {
     public static final String EXTRA_ID =
