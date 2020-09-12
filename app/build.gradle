@@ -5,7 +5,7 @@ android {
     buildToolsVersion "30.0.1"
 
     defaultConfig {
-        applicationId "com.example.shappy"
+        applicationId "artiom.divak.shappy"
         minSdkVersion 16
         targetSdkVersion 30
         versionCode 1
